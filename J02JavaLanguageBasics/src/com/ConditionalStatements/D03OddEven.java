@@ -1,0 +1,46 @@
+package com.ConditionalStatements;
+
+import java.util.Scanner;
+
+public class D03OddEven {
+
+	public static void main(String[] args) {
+		/*int no, reminder;
+		Scanner scn = new Scanner(System.in);
+		
+		System.out.print("Enter Number: ");
+		no = scn.nextInt();
+		
+		reminder = no % 2;
+		
+		if(reminder == 0)
+		{
+			System.out.println("Number is Even");
+		}
+		else
+		{
+			System.out.println("Number is Odd");
+		}
+		
+		scn.close();*/
+		
+		int no;
+		Scanner scn = new Scanner(System.in);
+		
+		System.out.print("Enter Number: ");
+		no = scn.nextInt();
+		
+		
+		if(no % 2 == 0)
+		{
+			System.out.println("Number is Even");
+		}
+		else
+		{
+			System.out.println("Number is Odd");
+		}
+		
+		scn.close();
+	}
+
+}

@@ -1,0 +1,19 @@
+PLEASE NOTE: THESE ASSIGNMENTS NEED NOT TO BE SUBMITTED ANYWHERE. THESE ARE FOUR YOUR BETTER UNDERSTANDING OF THE TOPIC.
+
+Assignments
+1. Accept marks of 5 subjects and canculate total and average marks.
+2. Accept a bank balance from user and show the message as "Low Balance" if balance is less than 2000.
+3. Accept a number from user and check whether it is +ve or -ve
+4. Accept selling amount and purchase amount from user and display whether it is profit or loss and how much?
+5. Accept a year from user and check whether it is leap or not?
+6. Accept a bank balance from user and show the message as "Low Balance" if balance is less than 2000 or display the message as "Balance is ok"
+7. Accept age from user and show the message as "You are valid for voting" if age is grater than or equal to 18 otherwise display the message as "You are not valid for voting"
+8. Accept marks of 5 subjects and canculate total and average marks also display the grade as follows
+	Marks		Grade
+	>= 85		Dist
+	< 85 & >= 75	A
+	< 75 & >= 60	B
+	< 60 & >= 50	C
+	< 50 & >= 35	D
+	< 35		Fail
+
