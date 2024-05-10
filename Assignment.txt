@@ -17,3 +17,12 @@ Assignments
 	< 50 & >= 35	D
 	< 35		Fail
 
+
+Loops
+1. Accept any number from user and print its multiplication table
+	1 * 5 = 5
+	2 * 5 = 10
+	3 * 5 = 15
+	4 * 5 = 20
+
+2. Print the multiplication table of numbers from 1 to 10
