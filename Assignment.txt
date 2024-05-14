@@ -26,3 +26,8 @@ Loops
 	4 * 5 = 20
 
 2. Print the multiplication table of numbers from 1 to 10
+
+
+
+Function
+1. Try to write all above assignments with the help of function
