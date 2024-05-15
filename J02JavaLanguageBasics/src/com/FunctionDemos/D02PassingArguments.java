@@ -1,7 +1,7 @@
 package com.FunctionDemos;
 
-public class D0PassingArguments {
-
+public class D02PassingArguments {
+	
 	public static void calculateAddition(int no1, int no2)
 	{
 		int sum = no1 + no2;

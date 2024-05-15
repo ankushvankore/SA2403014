@@ -25,6 +25,11 @@ public class D02Initilization2 {
 		{
 			System.out.println(m);
 		}
+		/*
+		 * Enhanced for loop / for each loop
+		 * 1. It is forword only loop
+		 * 2. It is read only loop
+		 */
 		
 	}
 

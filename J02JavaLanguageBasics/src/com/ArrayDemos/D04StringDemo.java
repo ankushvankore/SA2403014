@@ -22,6 +22,32 @@ public class D04StringDemo {
 		
 		name = "Manasa StarAgile";
 		System.out.println(name);
+		
+		System.out.println("Character at 5 index: " + name.charAt(5));
+		System.out.println("Index of A: " + name.indexOf("A"));
+		
+		name = name.replace("A", "a");
+		System.out.println("After replacement: " + name);
+		
+		name = name.replace("a", "A");
+		System.out.println("After replacement: " + name);
+		
+		name = name.toUpperCase();
+		System.out.println("After Upper: " + name);
+		
+		name = name.toLowerCase();
+		System.out.println("After Lower: " + name);
+		
+		String str1 = "tushar", str2 = "Tushar Pawar";
+		
+		if(str1.equals(str2))
+			System.out.println("Both are equal");
+		else
+			System.out.println("Both are not equal");
+		
+		System.out.println(str2.contains("Tus"));
+		System.out.println(str2.contains(str1));
+		
 	}
 
 }
