@@ -1,16 +1,10 @@
-package com.ClassDemos;
+package com.InheritanceDemos;
 
 public class Employee {
 	private int empId;
 	private String empName;
 	private double basicSalary;
 	private String gender;
-	private static String company;
-	
-	public static void setCompany(String c)
-	{
-		company = c;
-	}
 	
 	public Employee()				//Plain / Default / No Parameter Constructor
 	{
@@ -53,7 +47,6 @@ public class Employee {
 		System.out.println("Employee Name: " + this.empName);
 		System.out.println("Basic Salary : " + this.basicSalary);
 		System.out.println("Gender       : " + this.gender);
-		System.out.println("Company      : " + company);
 	}
 	public double calculateSalary()
 	{
@@ -66,4 +59,12 @@ public class Employee {
 		
 		return net;
 	}
+	public String toString()
+	{
+		return "Employee Id  : " + empId +
+		"\nEmployee Name: " + this.empName +
+		"\nBasic Salary : " + this.basicSalary +
+		"\nGender       : " + this.gender;
+	}
+	
 }
