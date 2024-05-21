@@ -23,6 +23,8 @@ public class Client {
 		
 		Manager m3 = new Manager(111, "Manasa", 50000, "Female", 56000, 0.05);
 		System.out.println(m3);
+		
+		
 	}
 
 }

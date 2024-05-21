@@ -3,7 +3,7 @@ package com.InheritanceDemos;
 public class Employee {
 	private int empId;
 	private String empName;
-	private double basicSalary;
+	protected double basicSalary;
 	private String gender;
 	
 	public Employee()				//Plain / Default / No Parameter Constructor
