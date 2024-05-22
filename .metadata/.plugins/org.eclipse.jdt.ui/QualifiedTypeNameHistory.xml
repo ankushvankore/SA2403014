@@ -7,4 +7,7 @@
     <fullyQualifiedTypeName name="com.FunctionDemos.D01SimpleFunction"/>
     <fullyQualifiedTypeName name="com.InheritanceDemos.Manager"/>
     <fullyQualifiedTypeName name="com.InheritanceDemos.Employee"/>
+    <fullyQualifiedTypeName name="com.AbstractDemos.Rectangle"/>
+    <fullyQualifiedTypeName name="com.AbstractDemos.Printable"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
 </qualifiedTypeNameHistroy>
