@@ -18,8 +18,30 @@ public class ExceptionHandlingDemo1 {
 		}
 		catch(ArrayIndexOutOfBoundsException ex)
 		{
-			System.out.println("Error: Index is out of bounds!!!");
+			System.out.println("Error: Array index is out of bound");
 		}
+		catch(NullPointerException ex)
+		{
+			System.out.println(ex);
+		}
+		catch(ArithmeticException ex)
+		{
+			System.out.println(ex);
+		}
+		catch(SecurityException ex)
+		{
+			System.out.println(ex);
+		}
+		catch(Exception ex)
+		{
+			System.out.println(ex);
+		}
+		finally
+		{
+			//finally block get executed irrespective of exception
+			System.out.println("This is finally block");
+		}
+		
 		
 		System.out.println("Program ends");
 	}
