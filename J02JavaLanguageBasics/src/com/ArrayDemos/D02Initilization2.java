@@ -13,6 +13,23 @@ public class D02Initilization2 {
 			System.out.println(marks[i]);
 		}
 		
+		int temp;
+		for(int i = 0; i < marks.length; i++)
+		{
+			for(int j = i + 1; j < marks.length-1; j++)
+			{
+				if(marks[j] > marks[j+1])
+				{
+					temp = marks[j];
+					marks[j] = marks[j+1];
+					marks[j+1] = temp;
+				}
+			}
+		}
+		
+		for(int m : marks)
+			System.out.println(m);
+		
 		Arrays.sort(marks);
 		
 		System.out.println("Array After Sorting");

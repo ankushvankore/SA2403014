@@ -19,6 +19,7 @@ public class D01ListDemo {
 		
 		System.out.println("Total students in list: " + students.size());
 		students.add("Dhana");
+		students.add("Bunty");
 		students.add("Ankush");
 		
 		System.out.println("Total students in list: " + students.size());
@@ -43,6 +44,21 @@ public class D01ListDemo {
 		students.remove("Ankush");
 		
 		System.out.println("After removing: " + students);
+		
+		String s1 = "Ankush";
+		s1 += "Vankore";
+		System.out.println(s1);
+		
+		
+		StringBuffer sb = new StringBuffer();
+		sb.append("Bunty");
+		sb.append("Nayak");
+		
+		StringBuilder sb1 = new StringBuilder();
+		sb1.append("Star");
+		sb1.append("Agile");
+		
+		System.out.println(sb1);
 		
 	}
 
