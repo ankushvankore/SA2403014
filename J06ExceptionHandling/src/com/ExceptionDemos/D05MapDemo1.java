@@ -51,6 +51,11 @@ public class D05MapDemo1 {
 		{
 			System.out.println(s);
 		}
+		
+		for(Map.Entry<Integer, String> s : students.entrySet())
+		{
+			System.out.println(s.getKey() + " => " + s.getValue());
+		}
 	}
 
 }

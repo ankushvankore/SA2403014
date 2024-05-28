@@ -25,6 +25,7 @@ public class D04SetDemo {
 			System.out.println(st);
 		System.out.println("------------------------------------------");
 		Iterator<String> itr = students.iterator();
+		//Iterator is an interface through which you can iterate over the Set
 		String st;
 		/*st = itr.next();
 		// .next() returns the value at the location of itr object

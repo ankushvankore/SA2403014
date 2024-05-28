@@ -1,0 +1,2 @@
+Files in Java are seriously good!!
+From tomorrow, we are going to start Selenium WebDriver.

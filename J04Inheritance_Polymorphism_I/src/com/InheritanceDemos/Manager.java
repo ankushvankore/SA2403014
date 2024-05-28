@@ -11,11 +11,11 @@ public class Manager extends Employee
 		rate = 0;
 	}
 	
-	public Manager(int id, String nm, double bs, String gn, double s, double r)
+	public Manager(int id, String nm, double bs, String gn, double sales, double r)
 	{
 		//super();		//Will call plain constructor of base class
 		super(id, nm, bs, gn);	//Call parameterized constructor of base class
-		sales = s;
+		this.sales = sales;
 		rate = r;
 	}
 	
