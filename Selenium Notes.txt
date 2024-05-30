@@ -1,0 +1,40 @@
+Steps for configuration of Selenium WebDriver
+
+1. Download latest version of Selenium from selenium.dev site
+2. Create a new Java Project
+3. Create a new Package
+4. Create a new Class
+5. Right Click on Project -> Build Path -> Configure Build Path
+6. Click on Libraries Tab
+7. Click on Class Path
+8. Click on Add External Jars Button
+9. Select the Jar file downloaded in step no1
+10. Click on Open button
+11. Click on Apply & Close button
+
+=======================================================
+1. Opening the browser => Create object of WebDriver interface (It will open blank browser)
+2. get() => Used to launch a specific url (Needs ABSOLUTE URL)
+3. driver.manage().window().maximize() => Will maximize the browser window
+4. close() => Will close the browser window WHICH IS OPNED BY WebDriver OBJECT
+5. getTitle() => Retrun the title of WebPage which is opened by WebDriver Object (String)
+6. getCurrentUrl() => Returns the url of the page (String)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=========================================
+Common Exceptions 
+=========================================
+1. InvalidArgumentException => URL is not in correct format 
+2. SessionNotCreatedException => The version of WebDriver & browser are not matching (browser is not updated)

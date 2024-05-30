@@ -45,3 +45,9 @@ Row1 Cell1	Row1 Cell2	Row1 Cell3
 Row2 Cell1	Row2 Cell2	Row2 Cell3
 Row3 Cell1	Row3 Cell2	Row3 Cell3
 Row4 Cell1	Row4 Cell2	Row4 Cell3
+
+
+=====================================================
+Selenium Assignments
+==========================================================
+1. Try to find out use of getPageSource() method
