@@ -19,15 +19,39 @@ Steps for configuration of Selenium WebDriver
 4. close() => Will close the browser window WHICH IS OPNED BY WebDriver OBJECT
 5. getTitle() => Retrun the title of WebPage which is opened by WebDriver Object (String)
 6. getCurrentUrl() => Returns the url of the page (String)
+7. getPageSource() => Returns the rendered html of page (String)
+8. findElement() => Finds / Reads the control / Web Control / WebElement on the page (WebElement)
+
+
+========================================
+Locators
+========================================
+Is the way to find out the specific WebElement on the page. 
+
+1. Name
+2. Id
+3. ClassName
+4. CssSelector
+5. XPath
+6. LinkText
+7. PartialLinkText
+8. TagName
+9. RelativeLocator
 
 
 
 
+========================================
+WebElement
+========================================
+Every control on webpage is treated as WebElement
 
+WebElement is an interface from Selenium
+WebElement object can hold any control on the webpage
 
-
-
-
+Methods
+1. sendKeys() => Enter some text in the control. It appends the new text (TextBox)
+2. click() => Click on the control
 
 
 
@@ -38,3 +62,16 @@ Common Exceptions
 =========================================
 1. InvalidArgumentException => URL is not in correct format 
 2. SessionNotCreatedException => The version of WebDriver & browser are not matching (browser is not updated)
+3. NoSuchElementException => Selenium is unable to locate the spcific control
+	a. Value of locator is wrong
+	b. The control (value of attribute) could be dynamic
+
+
+
+
+=============================
+Test Case
+=============================
+1. Open Google
+2. Enter Ankush Vankore in the text
+3. Hit Enter

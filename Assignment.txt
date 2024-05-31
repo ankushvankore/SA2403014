@@ -51,3 +51,4 @@ Row4 Cell1	Row4 Cell2	Row4 Cell3
 Selenium Assignments
 ==========================================================
 1. Try to find out use of getPageSource() method
+2. Open https://www.echotrak.com/Login.aspx?ReturnUrl=%2f and try to login with id, name and className locator
