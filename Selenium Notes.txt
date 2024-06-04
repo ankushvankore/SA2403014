@@ -20,7 +20,7 @@ Steps for configuration of Selenium WebDriver
 5. getTitle() => Retrun the title of WebPage which is opened by WebDriver Object (String)
 6. getCurrentUrl() => Returns the url of the page (String)
 7. getPageSource() => Returns the rendered html of page (String)
-8. findElement() => Finds / Reads the control / Web Control / WebElement on the page (WebElement)
+8. findElement() => Finds / Reads the control / Web Control / WebElement on the page (WebElement). Will locate the first occurance
 
 
 ========================================
@@ -52,6 +52,7 @@ WebElement object can hold any control on the webpage
 Methods
 1. sendKeys() => Enter some text in the control. It appends the new text (TextBox)
 2. click() => Click on the control
+3. getText() => Return the text on the control (String)
 
 
 
@@ -72,6 +73,60 @@ Common Exceptions
 =============================
 Test Case
 =============================
-1. Open Google
-2. Enter Ankush Vankore in the text
-3. Hit Enter
+1. Open Echotrack
+2. Enter invalid data
+3. Click on Login button
+4. Error message should display
+
+
+
+
+
+==================================
+CssSelector
+==================================
+
+1. Inspect the control
+2. Click somewhere inside the DOM
+3. Copy the necessary data
+
+tagName[attribute='value']
+input[data-testid="royal_email"]
+span[class="error"]
+
+
+
+CssSelector Special Characters
+--------------------------------------
+
+1. ^ => Starts with
+
+	tagName[attribute^='Value']
+	button[id^='u_0_5']
+
+2. $ => Ends With 
+	tagName[attribute$='value']
+	input[data-testid$="email"]
+
+
+3. * => Contains
+	tagName[attribute*='value']
+	input[aria-label*="Pass"]
+	input[aria-label*="word"]
+	input[aria-label*="sswo"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
