@@ -30,7 +30,7 @@ Is the way to find out the specific WebElement on the page.
 
 1. Name
 2. Id
-3. ClassName
+3. ClassName => Always remember, class name may have multiple words. Use single word from all these
 4. CssSelector
 5. XPath
 6. LinkText
@@ -53,6 +53,7 @@ Methods
 1. sendKeys() => Enter some text in the control. It appends the new text (TextBox)
 2. click() => Click on the control
 3. getText() => Return the text on the control (String)
+4. getAttribute => Returns the value of any specific attribute (String)
 
 
 
@@ -66,6 +67,7 @@ Common Exceptions
 3. NoSuchElementException => Selenium is unable to locate the spcific control
 	a. Value of locator is wrong
 	b. The control (value of attribute) could be dynamic
+4. InvalidSelectorException => The value of locator is in wrong format
 
 
 
@@ -116,6 +118,9 @@ CssSelector Special Characters
 	input[aria-label*="sswo"]
 
 
+==============================================
+XPath
+==============================================
 
 
 

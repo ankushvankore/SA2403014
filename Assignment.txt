@@ -54,3 +54,5 @@ Selenium Assignments
 2. Open https://www.echotrak.com/Login.aspx?ReturnUrl=%2f and try to login with id, name and className locator
 3. Open https://www.echotrak.com/Login.aspx?ReturnUrl=%2f and try to login with all 4 types of CssSelector (single attribute, multiple attributes, all special characters (^, $, *))
 4. Open facebook.com & try login with invalid data. USE LOCATOR - CLASSNAME
+5. Try login https://www.echotrak.com/Login.aspx?ReturnUrl=%2f using Absolute XPath
+6. Try login https://www.echotrak.com/Login.aspx?ReturnUrl=%2f using Relative XPath
