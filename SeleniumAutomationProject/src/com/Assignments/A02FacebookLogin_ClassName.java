@@ -13,14 +13,14 @@ public class A02FacebookLogin_ClassName {
 		
 		driver.get("https://www.facebook.com/");
 		
-		WebElement userId = driver.findElement(By.className("_6luy"));
+		WebElement userId = driver.findElement(By.className("_55r1"));
 		userId.sendKeys("ankushvankore@gmail.com");
-		WebElement password = driver.findElement(By.className("_9npi"));
+		WebElement password = driver.findElement(By.className("_55r1"));
 		password.sendKeys("123456");
 		WebElement loginBtn = driver.findElement(By.className("_42ft"));
 		loginBtn.click();
 		
-		driver.close();
+		//driver.close();
 	}
 
 }

@@ -21,6 +21,7 @@ Steps for configuration of Selenium WebDriver
 6. getCurrentUrl() => Returns the url of the page (String)
 7. getPageSource() => Returns the rendered html of page (String)
 8. findElement() => Finds / Reads the control / Web Control / WebElement on the page (WebElement). Will locate the first occurance
+9. findElements() => Reads multiple controls on the web page. (List<WebElement>)
 
 
 ========================================
@@ -68,6 +69,7 @@ Common Exceptions
 	a. Value of locator is wrong
 	b. The control (value of attribute) could be dynamic
 4. InvalidSelectorException => The value of locator is in wrong format
+5. ElementNotInteractableException => The operation cannot be performed on this type of control
 
 
 
@@ -121,9 +123,29 @@ CssSelector Special Characters
 ==============================================
 XPath
 ==============================================
+XML Path
 
+Pattankodoli (Kolhapur) Bus Stand => Take a right turn => Hupare Nagar => Water Tank => 9th Lane => on Right hand 15th house
 
+Types of XPath
+1. Absolute XPath
+	html
 
+2. Relative XPath
+	//
+	//tagName[@attribute='value']
+	
+<html>
+	div
+		div
+		div
+			form
+				div
+				fieldset
+					input
+
+html/div/div[2]/form/fieldset/input
+	
 
 
 

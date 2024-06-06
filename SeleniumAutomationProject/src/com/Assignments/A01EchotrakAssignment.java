@@ -20,7 +20,7 @@ public class A01EchotrakAssignment {
 		password.sendKeys("sunil123");
 		*/
 		
-		WebElement userId = driver.findElement(By.className("form-control"));
+		/*WebElement userId = driver.findElement(By.className("form-control"));
 		userId.sendKeys("Anitha");
 		WebElement password = driver.findElement(By.id("txtPassword"));
 		password.sendKeys("anitha123");
@@ -37,8 +37,11 @@ public class A01EchotrakAssignment {
 			System.out.println("Correct Error Message: Test case pass");
 		else
 			System.out.println("Invalid Error Message: Test case fail");
+		*/
 		
-		driver.close();
+		driver.findElement(By.xpath("html/body/div/div/div[2]/div/div[2]/div/div/div/div/form/fieldset/div[2]/fieldset/input")).sendKeys("ankush");
+		
+		//driver.close();
 	}
 
 }

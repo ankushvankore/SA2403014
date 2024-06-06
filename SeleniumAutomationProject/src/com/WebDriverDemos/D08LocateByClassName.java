@@ -14,10 +14,10 @@ public class D08LocateByClassName {
 		
 		driver.get("https://www.google.co.in/");
 		
-		WebElement searchBox = driver.findElement(By.className("gLFyf"));
+		//WebElement searchBox = driver.findElement(By.className("gLFyf"));
 		
-		searchBox.sendKeys("Rani Mukharjee");
-		searchBox.sendKeys(Keys.ENTER);
+		driver.findElement(By.className("gLFyf")).sendKeys("Tesla", Keys.RETURN);
+		//driver.findElement(By.className("gLFyf")).sendKeys(Keys.ENTER);
 	}
 
 }
