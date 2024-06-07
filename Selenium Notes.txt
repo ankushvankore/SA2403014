@@ -54,9 +54,10 @@ Methods
 1. sendKeys() => Enter some text in the control. It appends the new text (TextBox)
 2. click() => Click on the control
 3. getText() => Return the text on the control (String)
-4. getAttribute => Returns the value of any specific attribute (String)
-
-
+4. getAttribute() => Returns the value of any specific attribute (String)
+5. isSelected() => Check that whether the control (Checkbox / Radio button) is selected or not. (boolean)
+6. isEnabled() => Checks that whether the control is enabled or disabled. (boolean)
+7. isDisplayed() => Checks that whether the control is visible on the page or not. (boolean)
 
 
 
@@ -146,6 +147,46 @@ Types of XPath
 
 html/div/div[2]/form/fieldset/input
 	
+==========================================
+Select Class
+==========================================
+Select class is used to handle a Dropdown List (Combobox) or List Box
+This is the only way to handle dropdlown list
+
+Note: DROPDOWN LIST IS HAVING <select> TAG.
+
+Test Case
+
+1. Display Selected country
+2. Display total no of countries from the list
+3. Display list of all the countries
+4. Select USA from the list
+5. Display Selected country
+
+
+Methods
+1. getFirstSelectedOption() => Return the selected element from dropdown list. (WebElement)
+2. getOptions() => Return list of all the elements / options from the dropdown list. (List<WebElement>)
+3. selectByVisibleText() => Selects the option with its text. 
+4. selectByValue() => You can pass the value of attribute value for selecting the option.
+5. selectByIndex() => You need to pass the index of element. 
+6. isMultiple() => Returns true if it is Listbox & returns false if it is Dropdown list (boolean)
+7. getAllSelectedOptions() => Returns list of all the selected items from Listbox (
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

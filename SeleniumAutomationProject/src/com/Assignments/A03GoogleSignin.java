@@ -10,12 +10,14 @@ public class A03GoogleSignin {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		
-		driver.get("https://www.google.com");
+		driver.get("https://www.facebook.com");
 		
-		driver.findElement(By.partialLinkText("Gm")).click();
+		/*driver.findElement(By.partialLinkText("Gm")).click();
 		driver.findElement(By.linkText("Sign in")).click();
 		driver.findElement(By.name("identifier")).sendKeys("mymailid@gmail.com");
+		*/
 		
+		driver.findElement(By.tagName("button")).click();
 
 	}
 

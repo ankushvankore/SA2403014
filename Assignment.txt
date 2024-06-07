@@ -57,3 +57,34 @@ Selenium Assignments
 5. Try login https://www.echotrak.com/Login.aspx?ReturnUrl=%2f using Absolute XPath
 6. Try login https://www.echotrak.com/Login.aspx?ReturnUrl=%2f using Relative XPath
 7. Try login on facebook.com using Relative Locator
+8. open https://echoecho.com/ then follow the steps => Click on Tutorials => Click on HTML => Click on HTML Forms => Click on Checkbox
+	a. Display the status (Selected, Enabled, Visible)
+	b. Select the checkbox which are not selected
+	c. Display the status (Selected, Enabled, Visible)
+	https://echoecho.com/htmlforms09.htm
+9. open https://echoecho.com/ then follow the steps => Click on Tutorials => Click on HTML => Click on HTML Forms => Click on Radiobutton
+	a. Display the status of every radio button(Selected, Enabled, Visible)
+	b. Click on every radio button
+	c. Display the status of every radio button(Selected, Enabled, Visible)
+	https://echoecho.com/htmlforms10.htm
+10. on https://register.rediff.com/register/register.php?FormName=user_details select and display your birthdate
+11. Open https://www.redbus.in/
+	a. In From Enter first 4 characters of your city (Kolhapur -> Kolh)
+	b. Select 1st Option from the list displayed
+	c. In To Enter first 4 characters of your city (Banglore -> Ban)
+	d. Select 1st Option from the list displayed
+	e. Click on Calender icon
+	f. Click on Date 30
+	g. Click on Search Buses button
+	h. Display the name of 1st Bus from the list
+
+
+
+
+
+
+
+
+
+
+
