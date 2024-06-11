@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class D20HandlingDropdownList {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 
@@ -26,14 +26,19 @@ public class D20HandlingDropdownList {
 		if (cars.isMultiple()) {
 			cars.selectByIndex(1);
 			cars.selectByIndex(3);
+			cars.selectByIndex(3);
 			
 			List<WebElement>selectedCars = cars.getAllSelectedOptions();
 			
 			System.out.println("\nSelected Cars...");
 			for(WebElement sc : selectedCars)
 				System.out.println(sc.getText());
+			
+			Thread.sleep(5000);
+			
+			cars.deselectByIndex(1);
 		}
-		driver.close();
+		//driver.close();
 	}
 
 }

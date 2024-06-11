@@ -77,6 +77,11 @@ Selenium Assignments
 	f. Click on Date 30
 	g. Click on Search Buses button
 	h. Display the name of 1st Bus from the list
+12. Open https://dash.bling-center.com/platform/signIn.html 
+	a. Click on forgot password
+	b. Enter email id
+	c. Click on Reset Password
+	d. Display the messages (in green color)
 
 
 

@@ -175,9 +175,24 @@ Methods
 
 
 
+===================================
+Synchronization
+===================================
+Process of adjusting the speed of tool with speed of applciation.
 
+1. Thread.sleep()
+	a. It takes mandatory delay
+	b. It is applicable to single statement only
 
+2. ImplicitWait
+	a. It dosent take mandatory dalay
+	b. It is applicable throughout the script
 
+3. ExplicitWait
+
+4. FluentWait
+
+5. PageLoadTimeOut
 
 
 
