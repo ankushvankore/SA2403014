@@ -71,7 +71,7 @@ Common Exceptions
 	b. The control (value of attribute) could be dynamic
 4. InvalidSelectorException => The value of locator is in wrong format
 5. ElementNotInteractableException => The operation cannot be performed on this type of control
-
+6. SessionTimeoutException => If the page not get loaded within 30 seconds.
 
 
 
@@ -188,11 +188,19 @@ Process of adjusting the speed of tool with speed of applciation.
 	a. It dosent take mandatory dalay
 	b. It is applicable throughout the script
 
-3. ExplicitWait
+3. ExplicitWait (WebDriverWait)
+	a. It is applicable to single statement only.
+	b. It dosent take mandatory delay
 
 4. FluentWait
+	Mainly used when you want to handle a specific exception.
 
-5. PageLoadTimeOut
+	w - withTimeout
+	i - ignoring
+	p - pollingEvery
+	u - until
+
+5. PageLoadTimeOut => You can add some more wait till the page get loaded to avoid SessionTimeoutException
 
 
 

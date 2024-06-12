@@ -15,7 +15,7 @@ public class D22Synchronization_ImplicitWait {
 		
 		WebDriver driver = new ChromeDriver(op);
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		
 		driver.get("https://www.redbus.in/");
 		

@@ -1,5 +1,7 @@
 package com.WebDriverDemos;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -15,6 +17,7 @@ public class D21Synchronization_Thread_Sleep {
 		driver.manage().window().maximize();
 		
 		driver.get("https://www.redbus.in/");
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
 		
 		//Source
 		//driver.findElement(By.id("src")).sendKeys("Kolh");

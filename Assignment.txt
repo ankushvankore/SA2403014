@@ -83,9 +83,21 @@ Selenium Assignments
 	c. Click on Reset Password
 	d. Display the messages (in green color)
 
+13. Open https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+	a. Enter user name as admin
+	b. Enter password as admin123
+	c. Click on Login
+	d. Click on down arrow next to the name
+	e. Click on logout
+14. Complete redbus.in assignment with FluentWait
 
-
-
+15. Open https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+	a. Enter user name as admin
+	b. Enter password as admin123
+	c. Click on Login
+	d. IF LOGIN GET SUCCESSFULL THEN 
+	e. Click on down arrow next to the name
+	f. Click on logout 
 
 
 
