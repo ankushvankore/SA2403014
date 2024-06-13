@@ -72,7 +72,7 @@ Common Exceptions
 4. InvalidSelectorException => The value of locator is in wrong format
 5. ElementNotInteractableException => The operation cannot be performed on this type of control
 6. SessionTimeoutException => If the page not get loaded within 30 seconds.
-
+7. NoAlertPresentException => You are trying to perfrom some actions on alert, but there is no alert present on the page.
 
 
 =============================
@@ -200,12 +200,26 @@ Process of adjusting the speed of tool with speed of applciation.
 	p - pollingEvery
 	u - until
 
-5. PageLoadTimeOut => You can add some more wait till the page get loaded to avoid SessionTimeoutException
+5. PageLoadTimeOut => You can add some more wait till the page get loaded to avoid SessionTimeoutException.
 
 
+======================================
+Handling Table
+======================================
+1. Display headers of all the columns
+2. Display total no of rows
+3. Display any Row randomly
 
+======================================
+Handling Javascript Alerts
+======================================
+Alert is an interface which is used to handle javascript alert.
 
+(Alert is a window that normally appear at the middle top on the browser. You cannot inspect it)
 
+Methods
+1. getText() => Will returns the text on the alert (String)
+2. accept() => Will click on Ok button on the alert.
 
 
 

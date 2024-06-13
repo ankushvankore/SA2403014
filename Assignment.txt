@@ -99,9 +99,41 @@ Selenium Assignments
 	e. Click on down arrow next to the name
 	f. Click on logout 
 
+16. Open https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+	a. Login with Admin 
+	b. Click on PIM
+	c. Click on + Add button
+	d. Enter First Name 
+	e. Enter Middle Name
+	f. Enter Last Name
+	g. Click on Create Login Details
+	h. Enter User Name
+	i. Enter Password
+	j. Enter Confirm Password
+	k. Click on Save Button
+	l. Logout
 
+	m. Login using data provided in step no h & i
+	n. Display name of employee on logout link
+	o. Click on My Info
+	p. Display the Employee ID
+	q. Logout
 
+17. Open https://www.rediff.com/
+	a. Click on Money
+	b. Click on More Gainers
+	c. Display title of all the headers
+	d. Display total no of rows
+	e. Display any row randomly
+	f. Display list of all the companies (Company name only)
+	g. Read all current price and display the highest price.
 
+18. Open https://demoqa.com/webtables
+	a. Try to display all header columns
+	b. Click on Add button
+	c. Enter all the data
+	d. Search the name in First Name column
+	e. Click on delete button in the same row
 
 
 

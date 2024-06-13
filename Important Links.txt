@@ -4,3 +4,6 @@ https://www.interviewbit.com/java-interview-questions/
 https://www.geeksforgeeks.org/java-interview-questions/
 https://demoqa.com/select-menu
 
+Registration form for practice / assignment
+https://demoqa.com/automation-practice-form
+
