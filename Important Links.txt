@@ -7,3 +7,6 @@ https://demoqa.com/select-menu
 Registration form for practice / assignment
 https://demoqa.com/automation-practice-form
 
+For multiple window handling
+https://www.online.citibank.co.in/
+

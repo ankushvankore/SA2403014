@@ -135,5 +135,6 @@ Selenium Assignments
 	d. Search the name in First Name column
 	e. Click on delete button in the same row
 
-
+19. Open https://www.amazon.in/
+	a. Try to display all the menus
 

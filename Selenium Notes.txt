@@ -16,13 +16,14 @@ Steps for configuration of Selenium WebDriver
 1. Opening the browser => Create object of WebDriver interface (It will open blank browser)
 2. get() => Used to launch a specific url (Needs ABSOLUTE URL)
 3. driver.manage().window().maximize() => Will maximize the browser window
-4. close() => Will close the browser window WHICH IS OPNED BY WebDriver OBJECT
+4. close() => Will close the CURRENT browser window WHICH IS OPNED BY WebDriver OBJECT
 5. getTitle() => Retrun the title of WebPage which is opened by WebDriver Object (String)
 6. getCurrentUrl() => Returns the url of the page (String)
 7. getPageSource() => Returns the rendered html of page (String)
 8. findElement() => Finds / Reads the control / Web Control / WebElement on the page (WebElement). Will locate the first occurance
 9. findElements() => Reads multiple controls on the web page. (List<WebElement>)
-
+10. getWindowHandles() => Returns IDs of the windows those are opened by Selenium WebDriver. (Set<String>)
+11. quit() => Close all the browser windows those are opened by WebDriver object.
 
 ========================================
 Locators
@@ -73,8 +74,8 @@ Common Exceptions
 5. ElementNotInteractableException => The operation cannot be performed on this type of control
 6. SessionTimeoutException => If the page not get loaded within 30 seconds.
 7. NoAlertPresentException => You are trying to perfrom some actions on alert, but there is no alert present on the page.
-
-
+8. ElementClickInterceptedException => Your control is hidden by some another control, so WebDriver is unable to click.
+9. JavascriptException => You have entered some wrong argument in the js.executeScript() method
 =============================
 Test Case
 =============================
@@ -218,14 +219,24 @@ Alert is an interface which is used to handle javascript alert.
 (Alert is a window that normally appear at the middle top on the browser. You cannot inspect it)
 
 Methods
-1. getText() => Will returns the text on the alert (String)
-2. accept() => Will click on Ok button on the alert.
+1. driver.switchTo.Alert() => Switch to the alert
+2. getText() => Will returns the text on the alert (String)
+3. accept() => Will click on Ok button on the alert.
+4. dismiss() => Will click on Cancel button on the alert.
+5. sendKeys() => Enters some text on the prompt box (IF AVAILABLE)
 
 
+================================
+Mouse Actions
+================================
+1. Move,
+2. Right Click
+3. Left Click
+4. Drag & Drop
+5. Double Click
 
 
-
-
+Actions Class => Used to perform all above mouse actions
 
 
 
