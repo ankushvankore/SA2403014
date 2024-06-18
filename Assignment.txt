@@ -138,3 +138,7 @@ Selenium Assignments
 19. Open https://www.amazon.in/
 	a. Try to display all the menus
 
+20. Open https://demo.guru99.com/test/simple_context_menu.html
+	a. Right click on 1st button and display all the sub menus
+	b. Double click on 2nd button and handle the alert (Display the message and click on Ok button)
+

@@ -24,6 +24,7 @@ Steps for configuration of Selenium WebDriver
 9. findElements() => Reads multiple controls on the web page. (List<WebElement>)
 10. getWindowHandles() => Returns IDs of the windows those are opened by Selenium WebDriver. (Set<String>)
 11. quit() => Close all the browser windows those are opened by WebDriver object.
+12. switchTo.Frame() => It will swith (enter) to the iFrame
 
 ========================================
 Locators
@@ -229,7 +230,7 @@ Methods
 ================================
 Mouse Actions
 ================================
-1. Move,
+1. Move
 2. Right Click
 3. Left Click
 4. Drag & Drop
@@ -238,8 +239,22 @@ Mouse Actions
 
 Actions Class => Used to perform all above mouse actions
 
+Methods
+1. moveToElement() => Move the mouse pointer to specific control (Not phisically)
+
+==================================
+Navigating Methods
+==================================
 
 
+
+=======================================
+Installing TestNG
+======================================
+1. Go to Help menu
+2. Click on Eclipse Marketplace
+3. Find for TestNG and click on Go button or hit Enter
+4. Click on Install button
 
 
 
