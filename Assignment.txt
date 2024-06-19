@@ -142,3 +142,26 @@ Selenium Assignments
 	a. Right click on 1st button and display all the sub menus
 	b. Double click on 2nd button and handle the alert (Display the message and click on Ok button)
 
+21. 	Open https://www.amazon.in/
+	a. Print the title
+	b. Click on Sell	
+	c. Print the title
+	d. Open https://www.amazon.in/
+	e. Print the title
+	f. Click on Best Sellers
+	g. Print the title
+	h. Open https://www.amazon.in/
+	i. Print the title
+	j. Click on Mobiles
+	k. Print the title
+	l. Open https://www.amazon.in/
+	m. Print the title
+	n. Click on Electronics
+	o. Print the title
+	p. Close the browser
+
+
+
+
+	
+

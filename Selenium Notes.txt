@@ -258,6 +258,79 @@ Installing TestNG
 
 
 
+===================================
+Testing Framework
+===================================
+Set of guidelines and rules for automation of test case
+It will help testers to reduce their lenght of the script
+
+====================================
+TestNG
+====================================
+Testing framework
+
+TestNG => NG Next Generation
+
+1. Open source
+2. Annotations
+3. Generates reports
+	a. Normal Report
+	b. HTML Report
+4. Implement Data driven testing
+5. Execute / Skip single / multiple test case/s
+6. Create groups and execute those groups
+7. Multiple Test cases
+8. Set priorities for test cases
+9. 
+
+
+=================================
+Annotations
+=================================
+1. @Test => Actually the test case
+2. @BeforeTest => This is the method which get executed ONLY ONCE BEFORE EXECUTING 1ST TEST CASE.
+3. @AfterTest => This is the method which get executed ONLY ONCE AFTER EXECUTING LAST TEST CASE.
+4. @BeforeMethod => This is the method which get executed BEFORE EVERY TEST CASE.
+5. @AfterMethod => This is the method which get executed AFTER EVERY TEST CASE.
+
+Points to be noted.
+1. Sequence of these methods does not matter (They can appear anywhere in the code)
+2. They need not to be in pair
+
+
+BeforeTest
+	BeforeMethod
+		Test1
+	AfterMethod
+	
+	BeforeMethod
+		Test2
+	AfterMethod
+
+	BeforeMethod
+		Test3
+	AfterMethod
+
+	BeforeMethod
+		Test4
+	AfterMethod
+AfterTest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

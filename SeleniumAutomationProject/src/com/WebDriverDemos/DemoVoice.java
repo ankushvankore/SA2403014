@@ -20,13 +20,14 @@ public class DemoVoice {
 
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		
-		js.executeScript("window.scrollBy(0,255)", "");
+		js.executeScript("window.scrollBy(0,500)", "");
 		
 		driver.findElement(By.id("dateOfBirthInput")).click();
 		new Select(driver.findElement(By.xpath("//*[@id=\"dateOfBirth\"]/div[2]/div[2]/div/div/div[2]/div[1]/div[2]/div[1]/select"))).selectByIndex(1);
 		new Select(driver.findElement(By.xpath("//*[@id=\"dateOfBirth\"]/div[2]/div[2]/div/div/div[2]/div[1]/div[2]/div[2]/select"))).selectByIndex(5);
-		driver.findElement(By.xpath("//*[@id=\"dateOfBirth\"]/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[4]")).click();
+		driver.findElement(By.xpath("//*[@id=\"dateOfBirth\"]/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div[4]")).click();
 		//driver.findElement(By.id("dateOfBirthInput")).sendKeys("29 Jan 1979");
+		
 	}
 
 }
