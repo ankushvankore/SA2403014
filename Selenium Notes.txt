@@ -292,11 +292,11 @@ Annotations
 3. @AfterTest => This is the method which get executed ONLY ONCE AFTER EXECUTING LAST TEST CASE.
 4. @BeforeMethod => This is the method which get executed BEFORE EVERY TEST CASE.
 5. @AfterMethod => This is the method which get executed AFTER EVERY TEST CASE.
-
 Points to be noted.
-1. Sequence of these methods does not matter (They can appear anywhere in the code)
-2. They need not to be in pair
+	a. Sequence of these methods does not matter (They can appear anywhere in the code)
+	b. They need not to be in pair
 
+6. @DataProvider => This method will pass the data to test case
 
 BeforeTest
 	BeforeMethod
@@ -315,6 +315,50 @@ BeforeTest
 		Test4
 	AfterMethod
 AfterTest
+
+
+
+
+
+==============================
+Finding xpath of svg tag
+==============================
+
+//*[local-name()="svg" and @attribute="value"]
+eg. //*[local-name()="svg" and @aria-hidden="true"]
+
+
+
+=============================
+Data Driven Testing
+=============================
+Executing single test case with multiple data set.
+
+1. Array
+2. Excel File
+
+
+============================
+Modular Framework
+============================
+a. Execute / Skip single or multiple test case(s).
+b. Execute your test cases via xml file.
+
+
+Points to be noted about XML file
+1. All the tags are pre defined
+2. All the tags are case sencetive
+3. You cannot change the sequence of any tag. (Sequence is most important)
+
+
+
+
+
+
+
+
+
+
 
 
 

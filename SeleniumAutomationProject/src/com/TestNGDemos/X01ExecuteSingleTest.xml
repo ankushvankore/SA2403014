@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Dhana Suite">
+	<test name = "My Test">
+		<classes>
+			<class name = "com.TestNGDemos.D05AmazonAssignment">
+				<methods>
+					<include name = "clickOnBestSeller"></include>				
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

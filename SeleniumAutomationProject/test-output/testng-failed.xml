@@ -3,16 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Assignments.A09OHRM_LoginLogout">
+      <class name="com.TestNGDemos.D05AmazonAssignment">
         <methods>
-          <include name="afterMethod"/>
-          <include name="login2"/>
-          <include name="beforeTest"/>
-          <include name="login4"/>
+          <include name="clickOnElectronics"/>
           <include name="afterTest"/>
-          <include name="login3"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- com.Assignments.A09OHRM_LoginLogout -->
+      </class> <!-- com.TestNGDemos.D05AmazonAssignment -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
