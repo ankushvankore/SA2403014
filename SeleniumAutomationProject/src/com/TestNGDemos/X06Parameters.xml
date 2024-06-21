@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "My Suite">
+	<test name = "My Test">
+		<parameters>
+			<parameter name = "userName" value = "student"></parameter>
+			<parameter name = "password" value = "Password123"></parameter>
+		</parameters>
+		<classes>
+			<class name = "com.TestNGDemos.D08Parameterization">
+			</class>
+		</classes>
+	</test>
+</suite>

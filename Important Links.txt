@@ -10,3 +10,5 @@ https://demoqa.com/automation-practice-form
 For multiple window handling
 https://www.online.citibank.co.in/
 
+https://practicetestautomation.com/practice-test-login/
+
