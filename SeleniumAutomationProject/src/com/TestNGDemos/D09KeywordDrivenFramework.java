@@ -24,8 +24,8 @@ public class D09KeywordDrivenFramework {
 	
 	@Test
 	public void login() {
-		driver.findElement(By.xpath(prop.getProperty("userNameTxtBoxXpath"))).sendKeys("student");
-		driver.findElement(By.name(prop.getProperty("passwordTxtBoxName"))).sendKeys("Password123");
+		driver.findElement(By.xpath(prop.getProperty("userNameTxtBoxXpath"))).sendKeys(prop.getProperty("userName"));
+		driver.findElement(By.name(prop.getProperty("passwordTxtBoxName"))).sendKeys(prop.getProperty("password"));
 		driver.findElement(By.cssSelector(prop.getProperty("submitBtnCss"))).sendKeys(Keys.ENTER);
 	}
 

@@ -351,7 +351,16 @@ Points to be noted about XML file
 3. You cannot change the sequence of any tag. (Sequence is most important)
 
 
+=================================
+Configuring Apache POI 5.2.3
+=================================
+On root folder 8 jar files
+Inside lib folder 6 jar files
+Inside ooxml-lib folder 7 file
 
+YOU HAVE ADD ALL THESE 21 FILES TO YOUR PROJECT
+
+Right click on your project -> Build Path -> Configure Build Path -> Libraries -> Class Path -> Add External jars -> Add all 21 files > Apply and Close
 
 
 

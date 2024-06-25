@@ -19,6 +19,8 @@ public class D01CreatingFile {
 		writer.write("Files in Java are seriously good!!");
 		writer.close();
 		System.out.println("Successfully written.");
+		
+		System.out.println(System.getProperty("user.dir"));
 	}
 
 }

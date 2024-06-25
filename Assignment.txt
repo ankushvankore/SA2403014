@@ -160,7 +160,10 @@ Selenium Assignments
 	o. Print the title
 	p. Close the browser
 
+22. Create a new Excel file and add the first name and last name of your friends in 1st cell and 2nd cell respectively
 
+23. Create Login file with following colums
+	Sr. No.	User Name	Password	Result
 
 
 	
