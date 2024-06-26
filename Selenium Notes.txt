@@ -363,9 +363,31 @@ YOU HAVE ADD ALL THESE 21 FILES TO YOUR PROJECT
 Right click on your project -> Build Path -> Configure Build Path -> Libraries -> Class Path -> Add External jars -> Add all 21 files > Apply and Close
 
 
+==================================
+Maven
+==================================
+Maven is one of popular build management tool. 
+Created by Apache group
+It is open source
 
+Creating Maven Project (With Archetype)
 
+File -> New Project -> Maven -> Maven Project -> Next -> Select 3rd check box (Add Project to Working Set)
+Search for maven-archetype-quickstart archetype
+Select version 1.4
+Next
+Enter Group Id (Company Name)
+Enter Artifact Id (Project Name) ==> BOTH SHOULD BE SAME
+Finish
+-----------------------------------------------
 
+Creating Maven Project (Without Archetype)
+
+File -> New Project -> Maven -> Maven Project -> Next -> Select 1st check box (Create a simple project)
+Next
+Enter Group Id (Company Name)
+Enter Artifact Id (Project Name) ==> BOTH SHOULD BE SAME
+Next
 
 
 

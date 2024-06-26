@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestNGDemos.D11OHRM_Login_Client">
+      <class name="com.TestNGDemos.D14LoginToOHRM_DDF">
         <methods>
-          <include name="afterTest"/>
+          <include name="afterMethod"/>
           <include name="beforeTest"/>
-          <include name="f"/>
+          <include name="loginToOHRM"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- com.TestNGDemos.D11OHRM_Login_Client -->
+      </class> <!-- com.TestNGDemos.D14LoginToOHRM_DDF -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
