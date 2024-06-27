@@ -390,6 +390,96 @@ Enter Artifact Id (Project Name) ==> BOTH SHOULD BE SAME
 Next
 
 
+================================================
+Using any method as DataProvider for any another class
+================================================
+1. Method should return 2 D array (String[][] / Object[][])
+2. Mark @DataProvider annotation to the method
+3. Add dataProviderClass parameter to @Test method
+
+
+============================================
+ExtentReport
+============================================
+
+
+============================================
+BDD
+============================================
+BA, Developer & Tester will sit with client and gather the requirements
+
+QA team will create
+
+1. Feature File
+	a. Collection of Scenarios
+	b. Created using GHERKIN LANGUAGE / SYNTAX (Similler to English)
+	c. Contains some Keywords
+
+Execute this feature file. you will get
+
+2. Step Def / Glue Code
+	a. Readymade skaleton of methods
+	b. Normal java class
+	c. You have to add the code for your test
+
+3. Runner class
+	a. Normal java class
+	b. Contains JUnit annotations
+
+
+==============================
+Feature File
+==============================
+Keywords
+
+1. Feature: => Requirement to be tested
+2. Scenario: => The scenario to be tested / Objective
+3. Given => Pre-Requisite
+4. When => The steps to be performed
+5. Then => Expected Result
+6. And / But => Used to combine multiple steps
+7. Background: => The steps to be repeated
+8. Examples: => Used in data driven testing (You can pass the data to test case)
+9. Scenario Outline: => Used in data driven testing combining with Exmaples 
+
+================================
+Example
+
+Req: Validate Google title
+Steps
+1. Open google
+2. Read The title
+3. Title should be Google 
+--------------------------------
+Feature: Validate Google title
+Scenario: To validate title of Google
+Given Open google
+When Read the title of page
+Then Title should be Google
+--------------------------------
+
+Req - Searching text on google
+
+Steps
+1. Open Google
+2. Enter some keyword to be searched
+3. Hit Enter
+4. Search result should display
+--------------------------------
+Feature: Search functionality on Google
+Scenario: To validate search functionality on google
+Given Open google application
+When Enter valid keyword in searchbox
+And Hit Enter
+Then I should get valid result
+
+
+
+
+
+
+
+
 
 
 

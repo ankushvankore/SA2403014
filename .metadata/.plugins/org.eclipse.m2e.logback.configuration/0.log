@@ -27,3 +27,660 @@
 2024-06-21 20:09:27,590 [Worker-16: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2024-06-21 21:47:01,697 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2024-06-25 20:05:57,157 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-06-26 20:09:14,761 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-06-26 21:30:03,216 [Worker-64: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\StarAgile\Demos\SA2403014\MyMavenProject\pom.xml
+2024-06-26 21:30:04,826 [Worker-64: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: MyMavenProject:MyMavenProject:0.0.1-SNAPSHOT @ D:\StarAgile\Demos\SA2403014\MyMavenProject\pom.xml.
+2024-06-26 21:30:05,267 [Worker-64: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MyMavenProject/src/main/java
+2024-06-26 21:30:05,311 [Worker-64: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MyMavenProject/src/test/java
+2024-06-26 21:30:05,760 [Worker-64: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2024-06-26 21:30:06,365 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 21:30:06,365 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-26 21:30:06,368 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 21:30:06,368 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-26 21:38:06,899 [Worker-68: Creating project "MyMavenProjectWithoutArcheType"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: MyMavenProjectWithoutArcheType:MyMavenProjectWithoutArcheType:0.0.1-SNAPSHOT @ D:\StarAgile\Demos\SA2403014\MyMavenProjectWithoutArcheType\pom.xml.
+2024-06-26 21:38:07,354 [Worker-68: Creating project "MyMavenProjectWithoutArcheType"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MyMavenProjectWithoutArcheType/src/main/java
+2024-06-26 21:38:07,355 [Worker-68: Creating project "MyMavenProjectWithoutArcheType"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /MyMavenProjectWithoutArcheType/src/main/resources
+2024-06-26 21:38:07,355 [Worker-68: Creating project "MyMavenProjectWithoutArcheType"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MyMavenProjectWithoutArcheType/src/test/java
+2024-06-26 21:38:07,356 [Worker-68: Creating project "MyMavenProjectWithoutArcheType"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /MyMavenProjectWithoutArcheType/src/test/resources
+2024-06-26 21:38:07,824 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-26 21:38:07,830 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-26 21:38:07,833 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-26 21:38:07,833 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-26 21:40:18,700 [Worker-71: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: MyMavenProject:MyMavenProject:0.0.1-SNAPSHOT @ D:\StarAgile\Demos\SA2403014\MyMavenProject\pom.xml.
+2024-06-26 21:40:19,062 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 21:40:19,062 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-26 21:40:19,065 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 21:40:19,065 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-26 21:40:50,671 [Worker-72: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-06-26 21:40:51,716 [Worker-72: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: MyMavenProject:MyMavenProject:0.0.1-SNAPSHOT @ D:\StarAgile\Demos\SA2403014\MyMavenProject\pom.xml.
+2024-06-26 21:40:51,951 [Worker-72: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MyMavenProject/src/main/java
+2024-06-26 21:40:51,952 [Worker-72: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MyMavenProject/src/test/java
+2024-06-26 21:40:52,388 [Worker-72: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2024-06-26 21:40:52,641 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 21:40:52,641 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-26 21:40:52,643 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 21:40:52,643 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-26 21:41:24,976 [Worker-73: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-06-26 21:41:25,652 [Worker-73: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: MyMavenProject:MyMavenProject:0.0.1-SNAPSHOT @ D:\StarAgile\Demos\SA2403014\MyMavenProject\pom.xml.
+2024-06-26 21:41:26,034 [Worker-73: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MyMavenProject/src/main/java
+2024-06-26 21:41:26,035 [Worker-73: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MyMavenProject/src/test/java
+2024-06-26 21:41:26,104 [Worker-73: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2024-06-26 21:41:26,384 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 21:41:26,385 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-26 21:41:26,388 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 21:41:26,389 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-26 21:42:23,001 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 21:42:23,001 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-26 21:42:23,003 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 21:42:23,003 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-26 21:42:27,717 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 21:42:27,718 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-26 21:42:27,719 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 21:42:27,719 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-26 21:43:44,975 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 21:43:44,976 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-26 21:43:44,978 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 21:43:44,978 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-26 21:44:26,834 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 21:44:26,835 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-26 21:44:26,837 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 21:44:26,837 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-26 21:44:42,783 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 21:44:42,784 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-26 21:44:42,785 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 21:44:42,785 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-26 21:44:49,164 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 21:44:49,164 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-26 21:44:49,186 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 21:44:49,186 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-26 21:58:37,078 [Worker-74: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: MyMavenProjectWithoutArcheType:MyMavenProjectWithoutArcheType:0.0.1-SNAPSHOT @ D:\StarAgile\Demos\SA2403014\MyMavenProjectWithoutArcheType\pom.xml.
+2024-06-26 21:58:37,518 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-26 21:58:37,519 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-26 21:58:37,521 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-26 21:58:37,522 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-26 21:59:40,374 [Worker-75: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: MyMavenProject:MyMavenProject:0.0.1-SNAPSHOT @ D:\StarAgile\Demos\SA2403014\MyMavenProject\pom.xml.
+2024-06-26 21:59:41,342 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 21:59:41,342 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-26 21:59:41,344 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 21:59:41,345 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-26 22:00:18,935 [Worker-71: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-06-26 22:00:19,438 [Worker-71: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: MyMavenProject:MyMavenProject:0.0.1-SNAPSHOT @ D:\StarAgile\Demos\SA2403014\MyMavenProject\pom.xml.
+2024-06-26 22:00:20,074 [Worker-71: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MyMavenProject/src/main/java
+2024-06-26 22:00:20,074 [Worker-71: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MyMavenProject/src/test/java
+2024-06-26 22:00:20,374 [Worker-71: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2024-06-26 22:00:21,042 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 22:00:21,042 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-26 22:00:21,044 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 22:00:21,044 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-26 22:01:42,250 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 22:01:42,250 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-26 22:01:42,251 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 22:01:42,251 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-26 22:05:31,871 [Worker-74: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-06-26 22:05:32,362 [Worker-74: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: MyMavenProject:MyMavenProject:0.0.1-SNAPSHOT @ D:\StarAgile\Demos\SA2403014\MyMavenProject\pom.xml.
+2024-06-26 22:05:33,016 [Worker-74: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MyMavenProject/src/main/java
+2024-06-26 22:05:33,019 [Worker-74: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MyMavenProject/src/test/java
+2024-06-26 22:05:33,253 [Worker-74: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2024-06-26 22:05:33,669 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 22:05:33,669 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-26 22:05:33,672 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 22:05:33,672 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-26 22:07:57,819 [Worker-74: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: MyMavenProject:MyMavenProject:0.0.1-SNAPSHOT @ D:\StarAgile\Demos\SA2403014\MyMavenProject\pom.xml.
+2024-06-26 22:07:58,484 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-json/4.22.0/selenium-json-4.22.0.jar
+2024-06-26 22:07:58,571 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chromium-driver/4.22.0/selenium-chromium-driver-4.22.0.jar
+2024-06-26 22:07:58,573 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/4.22.0/selenium-chrome-driver-4.22.0.jar
+2024-06-26 22:07:58,575 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-java/4.22.0/selenium-java-4.22.0.jar
+2024-06-26 22:07:58,577 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/4.22.0/selenium-api-4.22.0.jar
+2024-06-26 22:07:58,744 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-json/4.22.0/selenium-json-4.22.0.jar
+2024-06-26 22:07:58,749 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/4.22.0/selenium-chrome-driver-4.22.0.jar
+2024-06-26 22:07:58,764 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chromium-driver/4.22.0/selenium-chromium-driver-4.22.0.jar
+2024-06-26 22:07:58,765 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-manager/4.22.0/selenium-manager-4.22.0.jar
+2024-06-26 22:07:58,771 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-java/4.22.0/selenium-java-4.22.0.jar
+2024-06-26 22:07:59,048 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v124/4.22.0/selenium-devtools-v124-4.22.0.jar
+2024-06-26 22:07:59,049 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v125/4.22.0/selenium-devtools-v125-4.22.0.jar
+2024-06-26 22:07:59,049 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v126/4.22.0/selenium-devtools-v126-4.22.0.jar
+2024-06-26 22:07:59,118 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/4.22.0/selenium-api-4.22.0.jar
+2024-06-26 22:07:59,666 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v85/4.22.0/selenium-devtools-v85-4.22.0.jar
+2024-06-26 22:08:03,763 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v85/4.22.0/selenium-devtools-v85-4.22.0.jar
+2024-06-26 22:08:04,189 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-edge-driver/4.22.0/selenium-edge-driver-4.22.0.jar
+2024-06-26 22:08:04,543 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v124/4.22.0/selenium-devtools-v124-4.22.0.jar
+2024-06-26 22:08:04,712 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-edge-driver/4.22.0/selenium-edge-driver-4.22.0.jar
+2024-06-26 22:08:04,800 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v126/4.22.0/selenium-devtools-v126-4.22.0.jar
+2024-06-26 22:08:04,801 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v125/4.22.0/selenium-devtools-v125-4.22.0.jar
+2024-06-26 22:08:04,973 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/4.22.0/selenium-firefox-driver-4.22.0.jar
+2024-06-26 22:08:05,115 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-http/4.22.0/selenium-http-4.22.0.jar
+2024-06-26 22:08:05,249 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/4.22.0/selenium-remote-driver-4.22.0.jar
+2024-06-26 22:08:05,250 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/4.22.0/selenium-ie-driver-4.22.0.jar
+2024-06-26 22:08:05,620 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/4.22.0/selenium-firefox-driver-4.22.0.jar
+2024-06-26 22:08:05,700 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/4.22.0/selenium-ie-driver-4.22.0.jar
+2024-06-26 22:08:05,740 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-http/4.22.0/selenium-http-4.22.0.jar
+2024-06-26 22:08:06,039 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar
+2024-06-26 22:08:06,170 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-context/1.39.0/opentelemetry-context-1.39.0.jar
+2024-06-26 22:08:06,170 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api/1.39.0/opentelemetry-api-1.39.0.jar
+2024-06-26 22:08:06,480 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/4.22.0/selenium-remote-driver-4.22.0.jar
+2024-06-26 22:08:06,723 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-context/1.39.0/opentelemetry-context-1.39.0.jar
+2024-06-26 22:08:06,884 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-logging/1.39.0/opentelemetry-exporter-logging-1.39.0.jar
+2024-06-26 22:08:06,970 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api/1.39.0/opentelemetry-api-1.39.0.jar
+2024-06-26 22:08:07,124 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-common/1.39.0/opentelemetry-sdk-common-1.39.0.jar
+2024-06-26 22:08:07,345 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.39.0/opentelemetry-sdk-extension-autoconfigure-spi-1.39.0.jar
+2024-06-26 22:08:07,350 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-logging/1.39.0/opentelemetry-exporter-logging-1.39.0.jar
+2024-06-26 22:08:07,649 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-common/1.39.0/opentelemetry-sdk-common-1.39.0.jar
+2024-06-26 22:08:07,710 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.39.0/opentelemetry-sdk-extension-autoconfigure-1.39.0.jar
+2024-06-26 22:08:07,841 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.39.0/opentelemetry-sdk-extension-autoconfigure-spi-1.39.0.jar
+2024-06-26 22:08:08,060 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api-incubator/1.39.0-alpha/opentelemetry-api-incubator-1.39.0-alpha.jar
+2024-06-26 22:08:08,202 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.39.0/opentelemetry-sdk-extension-autoconfigure-1.39.0.jar
+2024-06-26 22:08:08,278 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-trace/1.39.0/opentelemetry-sdk-trace-1.39.0.jar
+2024-06-26 22:08:08,552 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api-incubator/1.39.0-alpha/opentelemetry-api-incubator-1.39.0-alpha.jar
+2024-06-26 22:08:08,641 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk/1.39.0/opentelemetry-sdk-1.39.0.jar
+2024-06-26 22:08:08,934 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-metrics/1.39.0/opentelemetry-sdk-metrics-1.39.0.jar
+2024-06-26 22:08:08,940 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-trace/1.39.0/opentelemetry-sdk-trace-1.39.0.jar
+2024-06-26 22:08:09,310 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk/1.39.0/opentelemetry-sdk-1.39.0.jar
+2024-06-26 22:08:09,471 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-logs/1.39.0/opentelemetry-sdk-logs-1.39.0.jar
+2024-06-26 22:08:09,693 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.14.17/byte-buddy-1.14.17.jar
+2024-06-26 22:08:10,172 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-logs/1.39.0/opentelemetry-sdk-logs-1.39.0.jar
+2024-06-26 22:08:10,172 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-metrics/1.39.0/opentelemetry-sdk-metrics-1.39.0.jar
+2024-06-26 22:08:10,617 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-os/4.22.0/selenium-os-4.22.0.jar
+2024-06-26 22:08:10,617 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-safari-driver/4.22.0/selenium-safari-driver-4.22.0.jar
+2024-06-26 22:08:11,188 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-os/4.22.0/selenium-os-4.22.0.jar
+2024-06-26 22:08:11,188 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-safari-driver/4.22.0/selenium-safari-driver-4.22.0.jar
+2024-06-26 22:08:11,542 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar
+2024-06-26 22:08:11,664 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-support/4.22.0/selenium-support-4.22.0.jar
+2024-06-26 22:08:12,555 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-support/4.22.0/selenium-support-4.22.0.jar
+2024-06-26 22:08:13,202 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-manager/4.22.0/selenium-manager-4.22.0.jar
+2024-06-26 22:08:13,811 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.14.17/byte-buddy-1.14.17.jar
+2024-06-26 22:08:14,730 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 22:08:14,730 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-26 22:08:14,732 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 22:08:14,732 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-26 22:08:15,132 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-java/4.22.0/selenium-java-4.22.0-sources.jar
+2024-06-26 22:08:15,172 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-java/4.22.0/selenium-java-4.22.0-sources.jar
+2024-06-26 22:08:15,177 [Worker-74: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-java:4.22.0
+2024-06-26 22:08:15,241 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/4.22.0/selenium-api-4.22.0-sources.jar
+2024-06-26 22:08:15,296 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/4.22.0/selenium-api-4.22.0-sources.jar
+2024-06-26 22:08:15,299 [Worker-74: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-api:4.22.0
+2024-06-26 22:08:15,369 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/4.22.0/selenium-chrome-driver-4.22.0-sources.jar
+2024-06-26 22:08:15,392 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/4.22.0/selenium-chrome-driver-4.22.0-sources.jar
+2024-06-26 22:08:15,396 [Worker-74: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-chrome-driver:4.22.0
+2024-06-26 22:08:15,454 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chromium-driver/4.22.0/selenium-chromium-driver-4.22.0-sources.jar
+2024-06-26 22:08:15,488 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chromium-driver/4.22.0/selenium-chromium-driver-4.22.0-sources.jar
+2024-06-26 22:08:15,492 [Worker-74: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-chromium-driver:4.22.0
+2024-06-26 22:08:15,598 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-json/4.22.0/selenium-json-4.22.0-sources.jar
+2024-06-26 22:08:15,626 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-json/4.22.0/selenium-json-4.22.0-sources.jar
+2024-06-26 22:08:15,630 [Worker-74: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-json:4.22.0
+2024-06-26 22:08:15,694 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-manager/4.22.0/selenium-manager-4.22.0-sources.jar
+2024-06-26 22:08:15,737 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-manager/4.22.0/selenium-manager-4.22.0-sources.jar
+2024-06-26 22:08:15,743 [Worker-74: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-manager:4.22.0
+2024-06-26 22:08:15,810 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v124/4.22.0/selenium-devtools-v124-4.22.0-sources.jar
+2024-06-26 22:08:16,054 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v124/4.22.0/selenium-devtools-v124-4.22.0-sources.jar
+2024-06-26 22:08:16,059 [Worker-74: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-devtools-v124:4.22.0
+2024-06-26 22:08:16,132 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v125/4.22.0/selenium-devtools-v125-4.22.0-sources.jar
+2024-06-26 22:08:16,361 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v125/4.22.0/selenium-devtools-v125-4.22.0-sources.jar
+2024-06-26 22:08:16,365 [Worker-74: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-devtools-v125:4.22.0
+2024-06-26 22:08:16,426 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v126/4.22.0/selenium-devtools-v126-4.22.0-sources.jar
+2024-06-26 22:08:16,658 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v126/4.22.0/selenium-devtools-v126-4.22.0-sources.jar
+2024-06-26 22:08:16,662 [Worker-74: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-devtools-v126:4.22.0
+2024-06-26 22:08:16,715 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v85/4.22.0/selenium-devtools-v85-4.22.0-sources.jar
+2024-06-26 22:08:16,868 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v85/4.22.0/selenium-devtools-v85-4.22.0-sources.jar
+2024-06-26 22:08:16,872 [Worker-74: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-devtools-v85:4.22.0
+2024-06-26 22:08:16,933 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-edge-driver/4.22.0/selenium-edge-driver-4.22.0-sources.jar
+2024-06-26 22:08:16,960 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-edge-driver/4.22.0/selenium-edge-driver-4.22.0-sources.jar
+2024-06-26 22:08:16,964 [Worker-74: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-edge-driver:4.22.0
+2024-06-26 22:08:17,022 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/4.22.0/selenium-firefox-driver-4.22.0-sources.jar
+2024-06-26 22:08:17,048 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/4.22.0/selenium-firefox-driver-4.22.0-sources.jar
+2024-06-26 22:08:17,051 [Worker-74: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-firefox-driver:4.22.0
+2024-06-26 22:08:17,119 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-http/4.22.0/selenium-http-4.22.0-sources.jar
+2024-06-26 22:08:17,151 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-http/4.22.0/selenium-http-4.22.0-sources.jar
+2024-06-26 22:08:17,155 [Worker-74: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-http:4.22.0
+2024-06-26 22:08:17,225 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/4.22.0/selenium-ie-driver-4.22.0-sources.jar
+2024-06-26 22:08:17,250 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/4.22.0/selenium-ie-driver-4.22.0-sources.jar
+2024-06-26 22:08:17,254 [Worker-74: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-ie-driver:4.22.0
+2024-06-26 22:08:17,315 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/4.22.0/selenium-remote-driver-4.22.0-sources.jar
+2024-06-26 22:08:17,418 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/4.22.0/selenium-remote-driver-4.22.0-sources.jar
+2024-06-26 22:08:17,423 [Worker-74: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-remote-driver:4.22.0
+2024-06-26 22:08:17,483 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre-sources.jar
+2024-06-26 22:08:18,099 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre-sources.jar
+2024-06-26 22:08:18,103 [Worker-74: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.guava:guava:33.2.1-jre
+2024-06-26 22:08:18,155 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api/1.39.0/opentelemetry-api-1.39.0-sources.jar
+2024-06-26 22:08:18,189 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api/1.39.0/opentelemetry-api-1.39.0-sources.jar
+2024-06-26 22:08:18,193 [Worker-74: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.opentelemetry:opentelemetry-api:1.39.0
+2024-06-26 22:08:18,260 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-context/1.39.0/opentelemetry-context-1.39.0-sources.jar
+2024-06-26 22:08:18,284 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-context/1.39.0/opentelemetry-context-1.39.0-sources.jar
+2024-06-26 22:08:18,288 [Worker-74: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.opentelemetry:opentelemetry-context:1.39.0
+2024-06-26 22:08:18,355 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-logging/1.39.0/opentelemetry-exporter-logging-1.39.0-sources.jar
+2024-06-26 22:08:18,380 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-logging/1.39.0/opentelemetry-exporter-logging-1.39.0-sources.jar
+2024-06-26 22:08:18,385 [Worker-74: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.opentelemetry:opentelemetry-exporter-logging:1.39.0
+2024-06-26 22:08:18,433 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-common/1.39.0/opentelemetry-sdk-common-1.39.0-sources.jar
+2024-06-26 22:08:18,458 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-common/1.39.0/opentelemetry-sdk-common-1.39.0-sources.jar
+2024-06-26 22:08:18,462 [Worker-74: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.opentelemetry:opentelemetry-sdk-common:1.39.0
+2024-06-26 22:08:18,511 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.39.0/opentelemetry-sdk-extension-autoconfigure-spi-1.39.0-sources.jar
+2024-06-26 22:08:18,535 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.39.0/opentelemetry-sdk-extension-autoconfigure-spi-1.39.0-sources.jar
+2024-06-26 22:08:18,540 [Worker-74: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.opentelemetry:opentelemetry-sdk-extension-autoconfigure-spi:1.39.0
+2024-06-26 22:08:18,594 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.39.0/opentelemetry-sdk-extension-autoconfigure-1.39.0-sources.jar
+2024-06-26 22:08:18,617 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.39.0/opentelemetry-sdk-extension-autoconfigure-1.39.0-sources.jar
+2024-06-26 22:08:18,620 [Worker-74: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.opentelemetry:opentelemetry-sdk-extension-autoconfigure:1.39.0
+2024-06-26 22:08:18,693 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api-incubator/1.39.0-alpha/opentelemetry-api-incubator-1.39.0-alpha-sources.jar
+2024-06-26 22:08:18,714 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api-incubator/1.39.0-alpha/opentelemetry-api-incubator-1.39.0-alpha-sources.jar
+2024-06-26 22:08:18,719 [Worker-74: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.opentelemetry:opentelemetry-api-incubator:1.39.0-alpha
+2024-06-26 22:08:18,784 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-trace/1.39.0/opentelemetry-sdk-trace-1.39.0-sources.jar
+2024-06-26 22:08:18,820 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-trace/1.39.0/opentelemetry-sdk-trace-1.39.0-sources.jar
+2024-06-26 22:08:18,825 [Worker-74: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.opentelemetry:opentelemetry-sdk-trace:1.39.0
+2024-06-26 22:08:18,881 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk/1.39.0/opentelemetry-sdk-1.39.0-sources.jar
+2024-06-26 22:08:18,912 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk/1.39.0/opentelemetry-sdk-1.39.0-sources.jar
+2024-06-26 22:08:18,915 [Worker-74: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.opentelemetry:opentelemetry-sdk:1.39.0
+2024-06-26 22:08:18,969 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-metrics/1.39.0/opentelemetry-sdk-metrics-1.39.0-sources.jar
+2024-06-26 22:08:19,033 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-metrics/1.39.0/opentelemetry-sdk-metrics-1.39.0-sources.jar
+2024-06-26 22:08:19,037 [Worker-74: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.opentelemetry:opentelemetry-sdk-metrics:1.39.0
+2024-06-26 22:08:19,097 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-logs/1.39.0/opentelemetry-sdk-logs-1.39.0-sources.jar
+2024-06-26 22:08:19,125 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-logs/1.39.0/opentelemetry-sdk-logs-1.39.0-sources.jar
+2024-06-26 22:08:19,129 [Worker-74: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.opentelemetry:opentelemetry-sdk-logs:1.39.0
+2024-06-26 22:08:19,184 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.14.17/byte-buddy-1.14.17-sources.jar
+2024-06-26 22:08:19,644 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.14.17/byte-buddy-1.14.17-sources.jar
+2024-06-26 22:08:19,648 [Worker-74: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.bytebuddy:byte-buddy:1.14.17
+2024-06-26 22:08:19,695 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-os/4.22.0/selenium-os-4.22.0-sources.jar
+2024-06-26 22:08:19,717 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-os/4.22.0/selenium-os-4.22.0-sources.jar
+2024-06-26 22:08:19,721 [Worker-74: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-os:4.22.0
+2024-06-26 22:08:19,777 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-safari-driver/4.22.0/selenium-safari-driver-4.22.0-sources.jar
+2024-06-26 22:08:19,803 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-safari-driver/4.22.0/selenium-safari-driver-4.22.0-sources.jar
+2024-06-26 22:08:19,807 [Worker-74: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-safari-driver:4.22.0
+2024-06-26 22:08:19,872 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-support/4.22.0/selenium-support-4.22.0-sources.jar
+2024-06-26 22:08:19,901 [Worker-74: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-support/4.22.0/selenium-support-4.22.0-sources.jar
+2024-06-26 22:08:19,906 [Worker-74: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-support:4.22.0
+2024-06-26 22:08:20,879 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 22:08:20,879 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-26 22:08:20,881 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 22:08:20,881 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-26 22:10:03,100 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 22:10:03,100 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-26 22:10:03,102 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 22:10:03,102 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-26 22:12:35,552 [Worker-84: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: MyMavenProject:MyMavenProject:0.0.1-SNAPSHOT @ D:\StarAgile\Demos\SA2403014\MyMavenProject\pom.xml.
+2024-06-26 22:12:36,314 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 22:12:36,314 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-26 22:12:36,318 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 22:12:36,318 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-26 22:12:37,788 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 22:12:37,789 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-26 22:12:37,791 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 22:12:37,791 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-26 22:13:27,583 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 22:13:27,584 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-26 22:13:27,586 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 22:13:27,586 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-26 22:55:28,509 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 22:55:28,510 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-26 22:55:28,511 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 22:55:28,511 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-26 22:55:29,532 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 22:55:29,532 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-26 22:55:29,534 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-26 22:55:29,534 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 20:17:33,314 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-06-27 20:18:09,932 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:18:09,933 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 20:18:09,936 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:18:09,936 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 20:24:09,756 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:24:09,756 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 20:24:09,758 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:24:09,762 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 20:25:59,502 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:25:59,502 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 20:25:59,505 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:25:59,505 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 20:26:11,022 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:26:11,022 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 20:26:11,025 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:26:11,026 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 20:26:25,189 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:26:25,189 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 20:26:25,191 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:26:25,191 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 20:26:57,347 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:26:57,347 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 20:26:57,349 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:26:57,349 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 20:29:34,204 [Worker-13: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: MyMavenProject:MyMavenProject:0.0.1-SNAPSHOT @ D:\StarAgile\Demos\SA2403014\MyMavenProject\pom.xml.
+2024-06-27 20:29:36,269 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:29:36,269 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 20:29:36,273 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:29:36,275 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 20:29:38,483 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:29:38,483 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 20:29:38,485 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:29:38,487 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 20:30:25,022 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:30:25,022 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 20:30:25,025 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:30:25,026 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 20:30:58,220 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:30:58,220 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 20:30:58,222 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:30:58,222 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 20:31:31,045 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:31:31,045 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 20:31:31,047 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:31:31,047 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 20:33:13,791 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:33:13,791 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 20:33:13,793 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:33:13,793 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 20:33:51,962 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:33:51,963 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 20:33:51,964 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:33:51,965 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 20:33:59,437 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:33:59,438 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 20:33:59,441 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:33:59,442 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 20:35:30,613 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:35:30,613 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 20:35:30,616 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:35:30,616 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 20:35:50,146 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:35:50,146 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 20:35:50,148 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:35:50,148 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 20:35:55,414 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:35:55,415 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 20:35:55,417 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:35:55,417 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 20:35:59,950 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:35:59,951 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 20:35:59,952 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:35:59,953 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 20:40:33,875 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:40:33,876 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 20:40:33,877 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:40:33,878 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 20:42:39,415 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:42:39,415 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 20:42:39,417 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:42:39,417 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 20:43:30,082 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:43:30,083 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 20:43:30,084 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:43:30,084 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 20:44:49,076 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:44:49,076 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 20:44:49,079 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:44:49,079 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 20:46:59,993 [Worker-26: Launching D04DataDrivenTesting] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:46:59,993 [Worker-26: Launching D04DataDrivenTesting] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 20:46:59,995 [Worker-26: Launching D04DataDrivenTesting] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:46:59,996 [Worker-26: Launching D04DataDrivenTesting] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 20:47:42,024 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:47:42,025 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 20:47:42,027 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:47:42,027 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 20:47:44,285 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:47:44,285 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 20:47:44,286 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:47:44,286 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 20:48:45,429 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:48:45,429 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 20:48:45,431 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:48:45,431 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 20:49:11,783 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:49:11,784 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 20:49:11,785 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:49:11,785 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 20:49:32,467 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:49:32,467 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 20:49:32,468 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:49:32,469 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 20:49:37,667 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:49:37,667 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 20:49:37,669 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:49:37,669 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 20:55:20,591 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:55:20,591 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 20:55:20,592 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:55:20,593 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 20:59:22,699 [Worker-30: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: MyMavenProject:MyMavenProject:0.0.1-SNAPSHOT @ D:\StarAgile\Demos\SA2403014\MyMavenProject\pom.xml.
+2024-06-27 20:59:23,707 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:59:23,707 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 20:59:23,710 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:59:23,710 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 20:59:24,919 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:59:24,919 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 20:59:24,920 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:59:24,921 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 20:59:24,950 [Worker-30: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/aventstack/extentreports/5.1.2/extentreports-5.1.2-sources.jar
+2024-06-27 20:59:25,268 [Worker-30: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/aventstack/extentreports/5.1.2/extentreports-5.1.2-sources.jar
+2024-06-27 20:59:25,674 [Worker-30: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.aventstack:extentreports:5.1.2
+2024-06-27 20:59:25,965 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:59:25,965 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 20:59:25,967 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:59:25,968 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 20:59:52,182 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:59:52,182 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 20:59:52,184 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 20:59:52,185 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:01:43,740 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:01:43,741 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:01:43,742 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:01:43,742 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:02:22,021 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:02:22,022 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:02:22,023 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:02:22,023 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:03:13,927 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:03:13,927 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:03:13,929 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:03:13,929 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:04:04,831 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:04:04,831 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:04:04,834 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:04:04,834 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:05:51,362 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:05:51,362 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:05:51,364 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:05:51,364 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:08:31,957 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:08:31,957 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:08:31,958 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:08:31,958 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:09:28,283 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:09:28,283 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:09:28,286 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:09:28,286 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:09:35,003 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:09:35,003 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:09:35,005 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:09:35,005 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:09:50,199 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:09:50,199 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:09:50,201 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:09:50,201 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:10:36,819 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:10:36,819 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:10:36,821 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:10:36,821 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:10:43,426 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:10:43,426 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:10:43,428 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:10:43,428 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:10:44,996 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:10:44,996 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:10:44,998 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:10:44,999 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:11:40,717 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:11:40,717 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:11:40,718 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:11:40,718 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:13:38,224 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:13:38,224 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:13:38,225 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:13:38,226 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:13:44,568 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:13:44,568 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:13:44,569 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:13:44,570 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:14:10,053 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:14:10,053 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:14:10,055 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:14:10,055 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:14:23,508 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:14:23,509 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:14:23,510 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:14:23,510 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:14:34,421 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:14:34,421 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:14:34,423 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:14:34,423 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:14:53,451 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:14:53,451 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:14:53,453 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:14:53,453 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:17:41,233 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:17:41,233 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:17:41,235 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:17:41,235 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:18:02,306 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:18:02,306 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:18:02,308 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:18:02,308 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:18:48,632 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:18:48,632 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:18:48,633 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:18:48,633 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:20:08,474 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:20:08,474 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:20:08,476 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:20:08,476 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:20:09,523 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:20:09,523 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:20:09,524 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:20:09,524 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:20:14,618 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:20:14,618 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:20:14,619 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:20:14,619 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:20:37,181 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:20:37,181 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:20:37,182 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:20:37,182 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:21:49,982 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:21:49,982 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:21:49,983 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:21:49,983 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:21:53,212 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:21:53,212 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:21:53,214 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:21:53,214 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:22:40,890 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:22:40,890 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:22:40,891 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:22:40,892 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:24:18,984 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:24:18,984 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:24:18,985 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:24:18,985 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:24:42,699 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:24:42,699 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:24:42,701 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:24:42,701 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:24:45,919 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:24:45,919 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:24:45,921 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:24:45,921 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:25:11,066 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:25:11,066 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:25:11,067 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:25:11,068 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:25:25,769 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:25:25,769 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:25:25,771 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:25:25,771 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:25:40,230 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:25:40,230 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:25:40,231 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:25:40,231 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:25:50,357 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:25:50,357 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:25:50,359 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:25:50,360 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:26:14,696 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:26:14,696 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:26:14,697 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:26:14,697 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:27:07,609 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:27:07,609 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:27:07,610 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:27:07,613 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:28:18,378 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:28:18,378 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:28:18,379 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:28:18,379 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:29:09,782 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:29:09,782 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:29:09,783 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:29:09,783 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:30:13,308 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:30:13,309 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:30:13,310 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:30:13,310 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:30:26,157 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:30:26,157 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:30:26,158 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:30:26,158 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:31:00,923 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:31:00,923 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:31:00,925 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:31:00,925 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:31:34,122 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:31:34,122 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:31:34,124 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:31:34,124 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:32:43,547 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:32:43,547 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:32:43,548 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:32:43,548 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:33:04,924 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:33:04,924 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:33:04,926 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:33:04,926 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:34:21,506 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:34:21,506 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:34:21,507 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:34:21,507 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:34:43,210 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:34:43,210 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:34:43,212 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:34:43,212 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:35:31,275 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:35:31,275 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:35:31,277 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:35:31,277 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:35:32,474 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:35:32,474 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:35:32,476 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:35:32,476 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:35:51,693 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:35:51,693 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:35:51,697 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:35:51,697 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:38:30,065 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:38:30,065 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:38:30,067 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:38:30,067 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:39:05,228 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:39:05,228 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:39:05,230 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:39:05,230 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:39:26,170 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:39:26,171 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:39:26,172 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:39:26,172 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:40:32,366 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:40:32,367 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:40:32,368 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:40:32,368 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:41:11,790 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:41:11,790 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:41:11,791 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:41:11,792 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources
+2024-06-27 21:41:35,698 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:41:35,698 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\main\resources
+2024-06-27 21:41:35,700 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-27 21:41:35,700 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\StarAgile\Demos\SA2403014\MyMavenProject\src\test\resources

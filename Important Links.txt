@@ -16,3 +16,5 @@ Apache POI download link
 https://archive.apache.org/dist/poi/release/bin/
 download poi-bin-5.2.3-20220909.zip  file
 
+Extent Report Dependency
+https://mvnrepository.com/artifact/com.aventstack/extentreports
