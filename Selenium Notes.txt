@@ -474,15 +474,29 @@ And Hit Enter
 Then I should get valid result
 
 
+===========================
+Creating Cucumber project
+===========================
+File --> New --> Maven Project --> Select 3rd checkbox --> search for io.cucumber --> Select this archetype 
+--> Enter Group ID (Company Name) & Artifact ID (Project Name) Both should be same
+--> Delete the ready package from src/test/java
+
+Configuration part
+Open https://github.com/cucumber/cucumber-java-skeleton/commit/d7249b50c570816eba27ce94557e1de7e9b0f97
+Expand All
+
+Copy the code from <properties> (Line no 11) to </dependencies> (Line no 41)
 
 
+In pom.xml file delete the code from <properties> (line no 12) till </dependencies> (Line no  59)
 
+Change the java version to 11
+Delete 
+<cucumber.version>6.8.2</cucumber.version>
 
-
-
-
-
-
+Delete
+        <maven.compiler.version>3.8.1</maven.compiler.version>
+        <maven.surefire.version>2.22.2</maven.surefire.version>
 
 
 
