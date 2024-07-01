@@ -2,6 +2,7 @@ package com.StepDef;
 
 import java.time.Duration;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -28,7 +29,7 @@ public class S04GoogleLinks {
 	@Then("Gmail page should display")
 	public void gmail_page_should_display() {
 		System.out.println("Title: " + driver.getTitle());
-
+		Assert.assertTrue(driver.getTitle().contains("Gmail"));
 		driver.close();
 	}
 
@@ -40,6 +41,7 @@ public class S04GoogleLinks {
 	@Then("Images page should display")
 	public void images_page_should_display() {
 		System.out.println("Title: " + driver.getTitle());
+		Assert.assertTrue(driver.getTitle().contains("Images"));
 
 		driver.close();
 	}
@@ -52,6 +54,7 @@ public class S04GoogleLinks {
 	@Then("About page should display")
 	public void about_page_should_display() {
 		System.out.println("Title: " + driver.getTitle());
+		Assert.assertTrue(driver.getTitle().contains("About"));
 
 		driver.close();
 	}
@@ -64,6 +67,7 @@ public class S04GoogleLinks {
 	@Then("Advt Page should display")
 	public void advt_page_should_display() {
 		System.out.println("Title: " + driver.getTitle());
+		Assert.assertTrue(driver.getTitle().contains("Ads"));
 
 		driver.close();
 	}

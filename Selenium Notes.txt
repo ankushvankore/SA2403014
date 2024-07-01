@@ -499,6 +499,68 @@ Delete
         <maven.surefire.version>2.22.2</maven.surefire.version>
 
 
+===================================
+Hooks in Cucumber
+===================================
+The code that get executed only once before 1st scenario and last scenario
+
+@Before
+@After
+
+
+
+
+@BeforeTest
+	BeforeClass
+		BeforeMethod
+			Test
+		AfterMethod
+		BeforeMethod
+			Test
+		AfterMethod
+	AfterClass
+	BeforeClass
+		BeforeMethod
+			Test
+		AfterMethod
+		BeforeMethod
+			Test
+		AfterMethod
+	AfterClass
+@AfterTest	
+
+
+| kavita | jadhav    | kavita@gmail.com | 3214569870 |
+| kajal  | prajapati | kajal@gmail.com  | 9874563217 |
+
+
+List<String> kj;
+List<String> kp;
+
+List<List<String>> kp
+
+String[]kj;
+String[]kp;
+
+String[][]list
+
+
+      | FirstName | LastName  | MailID           | PhNo       |
+      | kavita    | jadhav    | kavita@gmail.com | 3214569870 |
+      | kajal     | prajapati | kajal@gmail.com  | 9874563217 |
+
+Map<String, String> fName;
+Map<String, String> lName;
+Map<String, String> mailId;
+Map<String, String> phNo;
+
+List<Map<String, String>> data;
+
+
+
+
+
+
 
 
 

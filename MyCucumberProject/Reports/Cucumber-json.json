@@ -1,0 +1,196 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-07-01T16:28:08.570Z",
+        "line": 10,
+        "name": "To validate registration process on RediffMail",
+        "description": "",
+        "id": "registration-process-of-rediffmail;to-validate-registration-process-on-rediffmail;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5545077200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Rediffmail",
+            "match": {
+              "location": "com.StepDef.S07RediffRegistrion.open_rediffmail()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 779984100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Enter \"Anu Swathi\" \"anuswati\" and \"swati123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Anu Swathi\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"anuswati\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"swati123\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.StepDef.S07RediffRegistrion.i_enter_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5640239000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Approprite message should display",
+            "match": {
+              "location": "com.StepDef.S07RediffRegistrion.approprite_message_should_display()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-07-01T16:28:20.830Z",
+        "line": 11,
+        "name": "To validate registration process on RediffMail",
+        "description": "",
+        "id": "registration-process-of-rediffmail;to-validate-registration-process-on-rediffmail;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2557881400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Rediffmail",
+            "match": {
+              "location": "com.StepDef.S07RediffRegistrion.open_rediffmail()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1499114400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Enter \"Tushar Pawar\" \"tusharpawar987456\" and \"tushar123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tushar Pawar\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"tusharpawar987456\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"tushar123\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.StepDef.S07RediffRegistrion.i_enter_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5358346100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Approprite message should display",
+            "match": {
+              "location": "com.StepDef.S07RediffRegistrion.approprite_message_should_display()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-07-01T16:28:30.260Z",
+        "line": 12,
+        "name": "To validate registration process on RediffMail",
+        "description": "",
+        "id": "registration-process-of-rediffmail;to-validate-registration-process-on-rediffmail;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2092127200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Rediffmail",
+            "match": {
+              "location": "com.StepDef.S07RediffRegistrion.open_rediffmail()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2355602200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Enter \"Banti Nayak\" \"bantinayak\" and \"banti123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Banti Nayak\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"bantinayak\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"banti123\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.StepDef.S07RediffRegistrion.i_enter_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5332173300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Approprite message should display",
+            "match": {
+              "location": "com.StepDef.S07RediffRegistrion.approprite_message_should_display()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Registration process of RediffMail",
+    "description": "",
+    "id": "registration-process-of-rediffmail",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/MyCucumberProject/MyCucumberProject/F07RediffRegistration.feature",
+    "tags": []
+  }
+]

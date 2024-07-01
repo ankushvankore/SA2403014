@@ -1,141 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-26T21:05:21 IST" name="Default suite" finished-at="2024-06-26T21:05:43 IST" duration-ms="22231">
+  <suite started-at="2024-07-01T22:24:03 IST" name="Default suite" finished-at="2024-07-01T22:24:03 IST" duration-ms="396">
     <groups>
     </groups>
-    <test started-at="2024-06-26T21:05:21 IST" name="Default test" finished-at="2024-06-26T21:05:43 IST" duration-ms="22231">
-      <class name="com.TestNGDemos.D14LoginToOHRM_DDF">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D14LoginToOHRM_DDF@47caedad]" started-at="2024-06-26T21:05:21 IST" name="beforeTest" finished-at="2024-06-26T21:05:29 IST" duration-ms="8067" status="PASS">
+    <test started-at="2024-07-01T22:24:03 IST" name="Default test" finished-at="2024-07-01T22:24:03 IST" duration-ms="396">
+      <class name="com.TestNGDemos.ForListners">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.ForListners@60f00693]" started-at="2024-07-01T22:24:03 IST" name="beforeTest" finished-at="2024-07-01T22:24:03 IST" duration-ms="54" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D14LoginToOHRM_DDF@47caedad]" started-at="2024-06-26T21:05:29 IST" name="loginToOHRM" data-provider="getLoginData" finished-at="2024-06-26T21:05:31 IST" duration-ms="2167" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="tc1()[pri:0, instance:com.TestNGDemos.ForListners@60f00693]" started-at="2024-07-01T22:24:03 IST" name="tc1" finished-at="2024-07-01T22:24:03 IST" duration-ms="69" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.TestNGDemos.ForListners.tc1(ForListners.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginToOHRM -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D14LoginToOHRM_DDF@47caedad]" started-at="2024-06-26T21:05:31 IST" name="afterMethod" finished-at="2024-06-26T21:05:33 IST" duration-ms="1946" status="PASS">
+        </test-method> <!-- tc1 -->
+        <test-method signature="tc2()[pri:0, instance:com.TestNGDemos.ForListners@60f00693]" started-at="2024-07-01T22:24:03 IST" name="tc2" finished-at="2024-07-01T22:24:03 IST" duration-ms="38" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D14LoginToOHRM_DDF@47caedad]" started-at="2024-06-26T21:05:33 IST" name="loginToOHRM" data-provider="getLoginData" finished-at="2024-06-26T21:05:34 IST" duration-ms="1273" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kiran]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[kiran123]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- tc2 -->
+        <test-method signature="tc3()[pri:0, instance:com.TestNGDemos.ForListners@60f00693]" started-at="2024-07-01T22:24:03 IST" name="tc3" finished-at="2024-07-01T22:24:03 IST" duration-ms="13" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping
+at com.TestNGDemos.ForListners.tc3(ForListners.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginToOHRM -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D14LoginToOHRM_DDF@47caedad]" started-at="2024-06-26T21:05:34 IST" name="afterMethod" finished-at="2024-06-26T21:05:35 IST" duration-ms="392" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D14LoginToOHRM_DDF@47caedad]" started-at="2024-06-26T21:05:35 IST" name="loginToOHRM" data-provider="getLoginData" finished-at="2024-06-26T21:05:36 IST" duration-ms="906" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[anitha]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[anitha123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToOHRM -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D14LoginToOHRM_DDF@47caedad]" started-at="2024-06-26T21:05:36 IST" name="afterMethod" finished-at="2024-06-26T21:05:36 IST" duration-ms="375" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D14LoginToOHRM_DDF@47caedad]" started-at="2024-06-26T21:05:36 IST" name="loginToOHRM" data-provider="getLoginData" finished-at="2024-06-26T21:05:37 IST" duration-ms="1257" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToOHRM -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D14LoginToOHRM_DDF@47caedad]" started-at="2024-06-26T21:05:37 IST" name="afterMethod" finished-at="2024-06-26T21:05:39 IST" duration-ms="1550" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D14LoginToOHRM_DDF@47caedad]" started-at="2024-06-26T21:05:39 IST" name="loginToOHRM" data-provider="getLoginData" finished-at="2024-06-26T21:05:40 IST" duration-ms="1281" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kavita]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[kavita123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToOHRM -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D14LoginToOHRM_DDF@47caedad]" started-at="2024-06-26T21:05:40 IST" name="afterMethod" finished-at="2024-06-26T21:05:40 IST" duration-ms="370" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D14LoginToOHRM_DDF@47caedad]" started-at="2024-06-26T21:05:40 IST" name="loginToOHRM" data-provider="getLoginData" finished-at="2024-06-26T21:05:41 IST" duration-ms="919" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kavleen]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[kavleen]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToOHRM -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D14LoginToOHRM_DDF@47caedad]" started-at="2024-06-26T21:05:41 IST" name="afterMethod" finished-at="2024-06-26T21:05:42 IST" duration-ms="361" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D14LoginToOHRM_DDF@47caedad]" started-at="2024-06-26T21:05:42 IST" name="afterTest" finished-at="2024-06-26T21:05:43 IST" duration-ms="1175" status="PASS">
+        </test-method> <!-- tc3 -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.ForListners@60f00693]" started-at="2024-07-01T22:24:03 IST" name="afterTest" finished-at="2024-07-01T22:24:03 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.TestNGDemos.D14LoginToOHRM_DDF -->
+      </class> <!-- com.TestNGDemos.ForListners -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
